@@ -44,7 +44,28 @@ header .home-link {
     gap: 10px;
 }
 
+footer .legal-links {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
 
+footer .legal-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .legal-links a {
+    text-decoration: none;
+    color: white;
+    /* Cambia el color según el diseño */
+    font-size: 0.9em;
+}
+
+footer .legal-links a:hover {
+    color: #ffcc00;
+    /* Resaltar al pasar el ratón */
+}
 
 footer {
     background-color: #222;
@@ -59,6 +80,53 @@ footer {
     cursor: pointer;
     color: #ffcc00;
     /* Cambio de color para visibilidad */
+}
+
+/* Banner de cookies */
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 0.9em;
+    z-index: 1000;
+}
+
+#cookie-banner p {
+    margin: 0;
+    display: inline-block;
+}
+
+.cookie-buttons {
+    margin-top: 10px;
+}
+
+.cookie-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#accept-cookies {
+    background-color: #4caf50;
+    /* Verde */
+}
+
+#reject-cookies {
+    background-color: #f44336;
+    /* Rojo */
+}
+
+.hidden {
+    display: none;
 }
 
 nav.active ul {

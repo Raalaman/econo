@@ -43,7 +43,6 @@
 
 <body>
     <div id="container">
-
         <header>
             <a href="index.html" class="home-link">
                 <img src="images/econo.jpg" alt="Economistas consultores">
@@ -152,7 +151,7 @@
                     <strong>Dirección:</strong>
                     CALLE DE LOS PORTALES, 71<br>
                     26001 Logroño</p>
-                    <strong>Teléfono:</strong> <a href="tel:941214056">941 21 40 56</a>
+                    <strong>Teléfono:</strong> <a class="tel-link" href="tel:941214056">941 21 40 56</a>
                 </div>
 
                 <!-- Opening Hours -->
@@ -173,9 +172,25 @@
                     <p>Email: <a href="mailto:info@economistasconsultores.es">info@economistasconsultores.es</a>
                     </p>
                     <p>&copy; Economistas Consultores. Todos los derechos reservados.</p>
+                    <ul class="legal-links">
+                        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                        <li><a href="politica-cookies.html">Política de Cookies</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>
+        <div id="cookie-banner" class="hidden">
+            <p>
+                Utilizamos cookies para mejorar la experiencia del usuario en nuestra web.
+                Puedes aceptar o rechazar su uso. Consulta nuestra
+                <a href="politica-cookies.html" target="_blank">Política de Cookies</a>.
+            </p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies">Aceptar</button>
+                <button id="reject-cookies">Rechazar</button>
+            </div>
+        </div>
     </div>
 </body>
 
