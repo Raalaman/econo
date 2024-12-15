@@ -1,0 +1,67 @@
+/* Estilo general para la sección de contacto */
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-info div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.contact-info h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin: 0;
+    color: #0056b3;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el mapa */
+.map-container {
+    margin-top: 20px;
+}
+
+.map-container h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 8px;
+}
