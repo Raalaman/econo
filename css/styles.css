@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -145,6 +147,10 @@ footer {
     min-width: 250px;
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
 .footer-company h3,
 .footer-hours h3,
 .footer-contact h3 {
@@ -254,6 +260,9 @@ footer p {
     img {
         max-width: 100%;
         max-height: 100%;
+    }
+
+    p {
         padding: 1em;
     }
 
@@ -273,7 +282,6 @@ footer p {
         padding: 2%;
         margin: 0 auto;
         width: 80%;
-        text-align: center;
         border-radius: 5px;
     }
 
@@ -281,6 +289,7 @@ footer p {
         color: #fff;
         text-decoration: none;
         font-size: 1.5em;
+        text-align: center;
         display: block;
     }
 
