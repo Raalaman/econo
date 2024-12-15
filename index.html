@@ -10,6 +10,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="stylesheet" href="css/contacts.styles.css">
+    <script src="js/main.js" defer></script>
+    <meta name="description"
+        content="Economistas Consultores ofrece servicios completos de asesoría fiscal y laboral, optimizando recursos y cumpliendo con las normativas vigentes.">
+    <meta name="keywords"
+        content="asesoría fiscal, asesoría laboral, gestión de impuestos, declaración de la renta, gestión de nóminas, seguridad social, asesoría empresas, asesoría personalizada">
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Economistas Consultores",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+34941214056",
+                "contactType": "Customer Service",
+                "areaServed": "ES",
+                "availableLanguage": "Spanish"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Calle de los Portales, 71",
+                "addressLocality": "Logroño",
+                "postalCode": "26001",
+                "addressCountry": "Spain"
+              }
+            }
+    </script>
+    <meta name="geo.region" content="ES-LO" />
+    <meta name="geo.placename" content="Logroño" />
 </head>
 
 <body>
@@ -17,85 +46,98 @@
 
         <header>
             <a href="index.html" class="home-link">
-                <header>
-                    <img src="images/econo.jpg" alt="Economistas consultores">
-                    <h1>Economistas consultores</h1>
-                </header>
+                <img src="images/econo.jpg" alt="Economistas consultores">
+                <h1>Economistas consultores</h1>
             </a>
             <nav>
                 <ul>
-                    <li> <a href="index.html">Home </a> </li>
-                    <li> <a href="about.html">About us</a> </li>
-                    <li> <a href="contact.html">Contact Us</a> </li>
+                    <li> <a href="index.html">Inicio </a> </li>
+                    <li> <a href="about.html" class="about">Sobre Nosotros</a> </li>
+                    <li> <a href="contact.html">Contacto</a> </li>
                 </ul>
             </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
         </header>
 
 
+
         <div id="hero" class="tablet-desktop">
-            <img src="images/trainWithUs.jpg" alt="left arm extended holding a weight">
+            <img src="images/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg" alt="Asesoría Fiscal y Laboral">
         </div>
         <main>
 
             <div class="mobile">
-                <p>Welcome to Forward Fitness Club. Our
-                    mission is to help our clients meet their fitness and nutrition goals.</p>
-                <h3>FREE One-Week Trial Membership!</h3>
-                <p>Call Us Today to Get Started</p>
-                <p class="tel-link"><a href="tel:8145559608">(814)555-9608</a></p>
-                <h4>Fitness Club Hours:</h4>
-                <ul class="hours">
-                    <li>Mon-Thu: 6:00am-6:00pm</li>
-                    <li>Friday: 6:00am-4:00pm</li>
-                    <li>Saturday: 8:00am-6:00pm</li>
-                    <li>Sunday: Closed</li>
-                </ul>
+                <section id="consultoria-fiscal">
+                    <h2>Asesoría Fiscal</h2>
+                    <img src="images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg" alt="Asesoría fiscal" class="round">
+                    <p>Te ayudamos a optimizar tu carga tributaria y cumplir con las normativas fiscales, incluyendo la
+                        Declaración de la Renta, impuestos sobre Sociedades y consultoría en IVA y Retenciones.</p>
+                </section>
+
+                <section id="consultoria-laboral">
+                    <h2>Asesoría Laboral</h2>
+                    <img src="images/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="Asesoría laboral" class="round">
+                    <p>Gestionamos nóminas, contratos y derechos laborales, garantizando el cumplimiento normativo en
+                        áreas como Seguridad Social y Prevención de Riesgos Laborales.</p>
+                </section>
+
+                <section id="asesoria-empresas">
+                    <h2>Asesoría a Empresas</h2>
+                    <img src="images/redd-francisco-5U_28ojjgms-unsplash.jpg" alt="Asesoría a empresas" class="round">
+                    <p>Te ayudamos a optimizar recursos, gestionar impuestos corporativos y cumplir con las normativas
+                        fiscales y laborales, apoyando la expansión internacional de tu empresa.</p>
+                </section>
+
+                <section id="asesoria-personalizada">
+                    <h2>Asesoría Personalizada</h2>
+                    <p>Ofrecemos soluciones adaptadas a tus necesidades fiscales y laborales, con asesoría
+                        personalizada, consultoría integral y un enfoque proactivo ante cambios legislativos.</p>
+                </section>
+                <h2>Consulta Gratuita Inicial</h2>
+                <p>¡Contáctanos hoy mismo para obtener más información!</p>
+                <p class="tel-link"><a href="tel:941214056">941 21 40 56</a></p>
             </div>
 
             <div id="intro" class="tablet-desktop">
-                <p>Welcome to
-                    Forward Fitness Club.
-                    Our mission is to help
-                    our clients meet
-                    their fitness and
-                    nutrition goals.
-                </p>
+                <h2>Servicios de Asesoría Fiscal y Laboral</h2>
+                <p>En <strong>Economistas Consultores</strong>, ofrecemos una gama de servicios completos para
+                    particulares y empresas. Ya sea para la declaración de impuestos, la gestión de nóminas, la
+                    contratación de personal o el cumplimiento de normativas fiscales, estamos aquí para ayudarte a
+                    optimizar tus recursos y evitar problemas legales.</p>
 
-                <p>If you have struggled with getting healthy and need the motivation and
-                    resources to make a healthy lifestyle change, contact us today. Our facility
-                    includes state-of-the-art equipment, convenient group training classes, and
-                    nutrition tips and information to keep you healthy.</p>
+                <p>Con más de <strong>30 años de experiencia</strong> en el sector, nuestro equipo de expertos en
+                    fiscalidad y derecho laboral te proporcionará soluciones personalizadas y ajustadas a tus
+                    necesidades, asegurando que siempre cumplas con la legislación vigente y maximizando la eficiencia
+                    en la gestión de tu negocio.</p>
 
-                <p>We provide a
-                    FREE one-week membership
-                    so you can experience
-                    the benefits of our
-                    equipment and facility.
-                    This one-week trial
-                    gives you complete
-                    access to our
-                    equipment, training
-                    classes, and nutrition
-                    planning. Contact us
-                    today to <span class="action">start your free
-                        trial!</span></p>
+                <p><span class="action">Consulta gratuita inicial</span> disponible para todas las empresas y
+                    particulares. <strong>No te arriesgues a cometer errores fiscales o laborales que puedan costarte
+                        caro. Contáctanos hoy mismo</strong> para empezar a optimizar tu situación fiscal y laboral con
+                    la ayuda de nuestros expertos.</p>
+
+                <p>Además, <strong>te ofrecemos un análisis personalizado</strong> de tu situación fiscal y laboral sin
+                    compromiso. Nuestro objetivo es asegurarnos de que pagues solo lo que te corresponde y evitar
+                    sanciones por incumplimiento de la normativa.</p>
+
+                <h3>¿Por qué elegirnos?</h3>
+                <ul>
+                    <li><strong>Asesoría personal e individualizada</strong>: Nos adaptamos a tus necesidades
+                        específicas, ya seas particular o empresa.</li>
+                    <li><strong>Optimización fiscal</strong>: Reducimos tu carga tributaria de manera legal y eficiente.
+                    </li>
+                    <li><strong>Cumplimiento normativo</strong>: Garantizamos que siempre estés al día con las últimas
+                        leyes fiscales y laborales.</li>
+                    <li><strong>Resolución de conflictos laborales</strong>: Ayudamos a resolver cualquier problema
+                        relacionado con la legislación laboral y la seguridad social.</li>
+                </ul>
+
+                <p><strong>¡No esperes más!</strong> Agenda tu cita gratuita ahora y descubre cómo podemos ayudarte a
+                    hacer
+                    crecer tu negocio mientras optimizamos tus obligaciones fiscales y laborales.</p>
             </div>
-            <div class="grid tablet-desktop">
-                <figure class="frame">
-                    <a href="classes.html"><img src="images/fitness-group.jpg" alt="group of fitness people"></a>
-                    <figcaption class="pic-text">Group Fitness</figcaption>
-                </figure>
-                <figure class="frame">
-                    <a href="nutrition.html"><img src="images/food-heart.jpg"
-                            alt="healthy food in the shape of a heart"></a>
-                    <figcaption class="pic-text">Meal Plans</figcaption>
-                </figure>
-                <figure class="frame">
-                    <a href="contact.html">
-                        <img src="images/personal-trainer.webp" alt="personal trainer with a clipboard"></a>
-                    <figcaption class="pic-text">Start Today</figcaption>
-                </figure>
-            </div>
+
         </main>
 
         <footer>
@@ -132,6 +174,5 @@
         </footer>
     </div>
 </body>
-
 
 </html>

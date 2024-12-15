@@ -11,6 +11,34 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="stylesheet" href="css/contacts.styles.css">
+    <script src="js/main.js" defer></script>
+    <meta name="description"
+        content="Economistas Consultores ofrece servicios completos de asesoría fiscal y laboral, optimizando recursos y cumpliendo con las normativas vigentes.">
+    <meta name="keywords"
+        content="asesoría fiscal, asesoría laboral, gestión de impuestos, declaración de la renta, gestión de nóminas, seguridad social, asesoría empresas, asesoría personalizada">
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Economistas Consultores",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+34941214056",
+                "contactType": "Customer Service",
+                "areaServed": "ES",
+                "availableLanguage": "Spanish"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Calle de los Portales, 71",
+                "addressLocality": "Logroño",
+                "postalCode": "26001",
+                "addressCountry": "Spain"
+              }
+            }
+    </script>
+    <meta name="geo.region" content="ES-LO" />
+    <meta name="geo.placename" content="Logroño" />
 </head>
 
 <body>
@@ -18,36 +46,33 @@
 
         <header>
             <a href="index.html" class="home-link">
-                <header>
-                    <img src="images/econo.jpg" alt="Economistas consultores">
-                    <h1>Economistas consultores</h1>
-                </header>
+                <img src="images/econo.jpg" alt="Economistas consultores">
+                <h1>Economistas consultores</h1>
             </a>
             <nav>
                 <ul>
-                    <li> <a href="index.html">Home </a> </li>
-                    <li> <a href="about.html">About us</a> </li>
-                    <li> <a href="contact.html">Contact Us</a> </li>
+                    <li> <a href="index.html">Inicio </a> </li>
+                    <li> <a href="about.html" class="about">Sobre Nosotros</a> </li>
+                    <li> <a href="contact.html">Contacto</a> </li>
                 </ul>
             </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
         </header>
 
 
         <main>
             <div id="contact">
-                <h2>¿Listo para empezar? Contáctanos hoy mismo</h2>
+                <h2>Contáctanos hoy mismo</h2>
                 <div class="contact-info">
                     <div>
-                        <h4>Teléfono:</h4>
-                        <p><a href="tel:941214056">941 21 40 56</a></p>
+                        <h4>Teléfono: <a href="tel:941214056">941 21 40 56</a> </h4>
                     </div>
                     <div>
-                        <h4>Email:</h4>
-                        <p><a href="mailto:info@economistasconsultores.es">info@economistasconsultores.es</a></p>
-                    </div>
-                    <div>
-                        <h4>Dirección:</h4>
-                        <p>Calle Portales, 71, 1ºC, 26001 Logroño, La Rioja</p>
+                        <h4>Email:
+                            <a href="mailto:info@economistasconsultores.es">info@economistasconsultores.es</a>
+                        </h4>
                     </div>
                 </div>
                 <div class="map-container">

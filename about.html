@@ -10,6 +10,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="stylesheet" href="css/contacts.styles.css">
+    <script src="js/main.js" defer></script>
+    <meta name="description"
+        content="Economistas Consultores ofrece servicios completos de asesoría fiscal y laboral, optimizando recursos y cumpliendo con las normativas vigentes.">
+    <meta name="keywords"
+        content="asesoría fiscal, asesoría laboral, gestión de impuestos, declaración de la renta, gestión de nóminas, seguridad social, asesoría empresas, asesoría personalizada">
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Economistas Consultores",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+34941214056",
+                "contactType": "Customer Service",
+                "areaServed": "ES",
+                "availableLanguage": "Spanish"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Calle de los Portales, 71",
+                "addressLocality": "Logroño",
+                "postalCode": "26001",
+                "addressCountry": "Spain"
+              }
+            }
+    </script>
+    <meta name="geo.region" content="ES-LO" />
+    <meta name="geo.placename" content="Logroño" />
 </head>
 
 <body>
@@ -17,107 +46,102 @@
 
         <header>
             <a href="index.html" class="home-link">
-                <header>
-                    <img src="images/econo.jpg" alt="Economistas consultores">
-                    <h1>Economistas consultores</h1>
-                </header>
+                <img src="images/econo.jpg" alt="Economistas consultores">
+                <h1>Economistas consultores</h1>
             </a>
             <nav>
                 <ul>
-                    <li> <a href="index.html">Home </a> </li>
-                    <li> <a href="about.html">About us</a> </li>
-                    <li> <a href="contact.html">Contact Us</a> </li>
+                    <li> <a href="index.html">Inicio </a> </li>
+                    <li> <a href="about.html" class="about">Sobre Nosotros</a> </li>
+                    <li> <a href="contact.html">Contacto</a> </li>
                 </ul>
             </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
         </header>
         <main>
-            <section id="weights">
-                <h1>Weights</h1>
+            <section id="consultoria-fiscal">
+                <h2>Asesoría Fiscal</h2>
 
-                <img src="images/wights.webp" alt="Two people working out with a weight in each hand" class="round">
+                <!-- Inserta una imagen relacionada con asesoría fiscal -->
+                <img src="images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg" alt="Asesoría fiscal" class="round">
 
-                <p>Our facility
-                    includes a weight
-                    training area with
-                    several weight options.
-                    Build lean muscle with
-                    weights and improve
-                    your core with weight
-                    training.</p>
+                <p>En nuestra Asesoría Fiscal, te ayudamos a cumplir con todas tus obligaciones fiscales y tributarias,
+                    optimizando tu carga fiscal y asegurando que pagues solo lo que te corresponde. Nos encargamos de
+                    gestionar impuestos, declaraciones y asesoría sobre normativas fiscales vigentes.</p>
 
                 <ul class="tablet-desktop">
-                    <li>Dumbbells</li>
-                    <li>Kettle bells</li>
-                    <li>Barbells</li>
+                    <li>Declaración de la Renta</li>
+                    <li>Asesoramiento en Impuestos sobre Sociedades</li>
+                    <li>Consultoría en IVA y Retenciones</li>
+                    <li>Planificación Fiscal Internacional</li>
                 </ul>
             </section>
 
-            <section id="cardio">
-                <h1>Cardio</h1>
+            <section id="consultoria-laboral">
+                <h2>Asesoría Laboral</h2>
 
-                <img src="images/cardio.jpg" alt="Two people working out with a weight in each hand" class="round">
+                <!-- Inserta una imagen relacionada con asesoría laboral -->
+                <img src="images/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="Asesoría laboral" class="round">
 
-                <p>Burn fat through cardio workouts. If you need to lose 20 lbs or more, include at least 30 minutes of
-                    cardio each day. We have several equipment choice for your woukout.</p>
+                <p>Ofrecemos un servicio integral de asesoría laboral, ayudando tanto a empresas como a trabajadores en
+                    todo lo relacionado con la legislación laboral, la gestión de nóminas y la contratación de personal.
+                    Nuestra misión es garantizar el cumplimiento normativo y velar por los derechos laborales de los
+                    empleados.</p>
 
                 <ul class="tablet-desktop">
-                    <li>Tredmills</li>
-                    <li>Eliptical Machines</li>
-                    <li>Exercise Bikes</li>
+                    <li>Contratos de Trabajo</li>
+                    <li>Asesoría en Seguridad Social</li>
+                    <li>Resolución de Conflictos Laborales</li>
+                    <li>Consultoría en Prevención de Riesgos Laborales</li>
                 </ul>
             </section>
 
-            <section id="training">
-                <h1>Personal Training</h1>
+            <section id="asesoria-empresas">
+                <h2>Asesoría a Empresas</h2>
 
-                <img src="images/personalTrainer.jpg" alt="Two people working out with a weight in each hand"
-                    class="round">
+                <!-- Inserta una imagen relacionada con asesoría a empresas -->
+                <img src="images/redd-francisco-5U_28ojjgms-unsplash.jpg" alt="Asesoría a empresas" class="round">
 
-                <p>Our certified personal trainers work with you one on one to help you obtain your fitness goals. Our
-                    personal trainers keep you motivated and push you farther than you would push yourself. When you
-                    feel like you can not do one more rep, they tell you that you can. Personal training has many
-                    benefits.</p>
+                <p>Ayudamos a las empresas a optimizar sus recursos, gestionar eficientemente sus procesos fiscales y
+                    laborales,
+                    y cumplir con las normativas vigentes. Desde la creación de la empresa hasta la gestión de sus
+                    obligaciones
+                    laborales y fiscales, ofrecemos un acompañamiento completo.</p>
 
                 <ul class="tablet-desktop">
-                    <li>Accountability</li>
-                    <li>Personalized Program</li>
-                    <li>Consistent Support and Motivation</li>
+                    <li>Gestión de Impuestos Corporativos</li>
+                    <li>Asesoría en Nóminas y Contratación</li>
+                    <li>Consultoría en Expansión Internacional</li>
+                    <li>Planes de Pensiones y Seguros</li>
                 </ul>
             </section>
 
-            <section id="exercises" class="tablet-desktop">
-                <h1>Common Exercises</h1>
-                <p>The following are common exercises that we encourage our clients to do as part of their daily
-                    exercise
-                    routine.</p>
+            <section id="asesoria-personalizada" class="tablet-desktop">
+                <h2>Asesoría Personalizada</h2>
+                <p>En nuestra asesoría, nos adaptamos a tus necesidades específicas, ofreciendo servicios personalizados
+                    tanto para particulares como para empresas. Nos aseguramos de que tengas la mejor estrategia fiscal
+                    y
+                    laboral para alcanzar tus objetivos.</p>
 
                 <dl>
-                    <dt>Burpee</dt>
-                    <dd>Burpees are a great full-body exercise to increase your strength and endurance. Begin in a
-                        standing
-                        position, drop into a squat and extend your hands forward, kick your feet back and then
-                        forward again
-                        quickly, and then jump up from a squatted position. </dd>
+                    <dt>Asesoría Personalizada</dt>
+                    <dd>Te ofrecemos un servicio individualizado, enfocado en tus necesidades particulares y en el
+                        sector de tu empresa.</dd>
 
-                    <dt>Plank</dt>
-                    <dd>Planks build your core strength. To perform a plank, get in a push-up position and rest your
-                        forearms on
-                        the floor. Hold the position as long as you can. </dd>
-                    <dt>Mountain Climber</dt>
-                    <dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push-up
-                        position,
-                        bring one knee up to your chest, and then switch as quickly as you can (as though you are
-                        climbing a
-                        mountain).</dd>
+                    <dt>Consultoría Integral</dt>
+                    <dd>Una solución completa que abarca todos los aspectos fiscales y laborales, adaptados a cada
+                        cliente.</dd>
+
+                    <dt>Asesoría Proactiva</dt>
+                    <dd>Nos adelantamos a los cambios legislativos y fiscales para que siempre estés preparado y
+                        cumpliendo con la normativa.</dd>
                 </dl>
-                <p>For more information about how to stay active, visit the <a
-                        href="https://health.gov/our-work/nutrition-physical-activity/presidents-council"
-                        target="_blank">U.S.
-                        Department of
-                        Health and Human Services</a>.</p>
+                <p>Para más información sobre cómo mejorar la gestión fiscal y laboral, visita el <a
+                        href="https://www.agenciatributaria.es" target="_blank">sitio web de la Agencia Tributaria</a>.
+                </p>
             </section>
-
-
         </main>
 
         <footer>

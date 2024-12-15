@@ -65,3 +65,8 @@ iframe {
     width: 100%;
     border-radius: 8px;
 }
+
+h4 {
+    margin-bottom: 5px;
+    /* Reduce el espacio debajo del h4 */
+}
