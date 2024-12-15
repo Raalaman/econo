@@ -12,7 +12,7 @@
 }
 
 #contact h2 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin-bottom: 20px;
     color: #0056b3;
 }
@@ -31,13 +31,13 @@
 }
 
 .contact-info h4 {
-    font-size: 1.2em;
+    font-size: 0.85em;
     margin-bottom: 5px;
     color: #444;
 }
 
 .contact-info p {
-    font-size: 1em;
+    font-size: 0.85em;
     margin: 0;
     color: #0056b3;
 }
@@ -56,7 +56,7 @@
     margin-top: 20px;
 }
 
-.map-container h4 {
+.map-container p {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -66,7 +66,13 @@ iframe {
     border-radius: 8px;
 }
 
-h4 {
+p {
     margin-bottom: 5px;
     /* Reduce el espacio debajo del h4 */
+}
+
+@media screen and (max-width: 769px) {
+    p {
+        padding: 0;
+    }
 }
