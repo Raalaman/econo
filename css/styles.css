@@ -1,16 +1,13 @@
-body {
-    background-color: #000;
-}
-
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000;
     padding: 15px 20px;
     position: relative;
 }
@@ -72,14 +69,6 @@ footer {
     color: #fff;
     padding: 20px 10%;
     font-family: 'Open Sans', sans-serif;
-}
-
-.hamburger {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: #ffcc00;
-    /* Cambio de color para visibilidad */
 }
 
 /* Banner de cookies */
@@ -195,13 +184,10 @@ footer p {
 
 .hamburger {
     display: none;
-    /* Inicialmente no visible */
     font-size: 30px;
     cursor: pointer;
-    color: #ffcc00;
-    /* Color visible */
+    color: black;
     z-index: 100;
-    /* Asegura que esté encima de otros elementos */
 }
 
 
@@ -212,7 +198,7 @@ footer p {
     }
 
     header .home-link h1 {
-        color: white;
+        color: black;
         margin: 0;
         font-size: 1.3em;
         font-weight: bold;
@@ -268,6 +254,11 @@ footer p {
     img {
         max-width: 100%;
         max-height: 100%;
+        padding: 1em;
+    }
+
+    .icono {
+        padding: 0;
     }
 
     main {
@@ -347,9 +338,9 @@ footer p {
 
 @media screen and (min-width: 770px) {
     header .home-link h1 {
-        color: white;
+        color: black;
         margin: 0;
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: bold;
     }
 
@@ -465,14 +456,14 @@ footer p {
 
 @media (min-width: 770px) and (max-width: 1399px) {
     header .home-link h1 {
-        color: white;
+        color: black;
         margin: 0;
         font-size: 2em;
         font-weight: bold;
     }
 
     header nav ul li a {
-        color: white;
+        color: black;
         text-decoration: none;
         font-size: 1.8em;
         font-weight: bold;
@@ -483,9 +474,9 @@ footer p {
 
 @media (min-width: 1400px) {
     header nav ul li a {
-        color: white;
+        color: black;
         text-decoration: none;
-        font-size: 2.8em;
+        font-size: 1.5em;
         font-weight: bold;
         padding: 5px 10px;
         transition: color 0.3s;
