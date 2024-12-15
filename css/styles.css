@@ -285,14 +285,6 @@ footer p {
         font-weight: bold;
     }
 
-    header nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 3em;
-        font-weight: bold;
-        padding: 5px 10px;
-        transition: color 0.3s;
-    }
 
     .grid {
         display: grid;
@@ -338,7 +330,7 @@ footer p {
         clear: left;
         background-color: #fff;
         padding: 2%;
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
     footer p {
@@ -400,5 +392,34 @@ footer p {
     #container {
         width: 1920px;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1399px) {
+    header .home-link h1 {
+        color: white;
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: color 0.3s;
+    }
+}
+
+@media (min-width: 1400px) {
+    header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 3em;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: color 0.3s;
     }
 }
